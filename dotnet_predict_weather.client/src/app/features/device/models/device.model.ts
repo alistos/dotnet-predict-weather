@@ -1,6 +1,6 @@
 export interface Device {
   id: string;
-  manufacture: string;
+  manufacturer: string;
   url: string;
   commands: string[];
 }

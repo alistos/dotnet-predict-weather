@@ -22,9 +22,41 @@ namespace dotnet_predict_weather.Server.Repositories.Implementation
             return device;
         }
 
+        public async Task<Device?> DeleteAsync(Guid id)
+        {
+            var existingDevice = await dbContext.Devices.FirstOrDefaultAsync(x => x.Id == id);
+            if(existingDevice == null) 
+            {
+                return null;
+            }
+
+            dbContext.Devices.Remove(existingDevice);
+            await dbContext.SaveChangesAsync();
+            return existingDevice;
+        }
+
+        public async Task<Device?> EditAsync(Device device)
+        {
+            var existingDevice = await dbContext.Devices.FirstOrDefaultAsync(x => x.Id == device.Id);
+
+            if (existingDevice != null) 
+            {
+                dbContext.Entry(existingDevice).CurrentValues.SetValues(device);
+                await dbContext.SaveChangesAsync();
+                return device;
+            }
+
+            return null;
+        }
+
         public async Task<IEnumerable<Device>> GetAllAsync()
         {
             return await dbContext.Devices.ToListAsync();
+        }
+
+        public async Task<Device?> GetById(Guid id)
+        {
+            return await dbContext.Devices.FirstOrDefaultAsync(x => x.Id == id);
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uOtIUPatxeq1Wx0co2Mv8wjfk6lLOQtxO/tBqGtieDr9XXwxVIm9yQCxkOtuudx24NWXWNOCPlZrAmTw3K17MQ==",
+  "dgSpecHash": "QnqNRtzPms512GeVr2wFaaT1Y3Y1QcG0r3zuM6vlLXI1EeDTBbg3I09ktXwZeo7GyRxSDFU3Y3WHCFmzoic85Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj",
+  "projectFilePath": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mugiw\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mugiw\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

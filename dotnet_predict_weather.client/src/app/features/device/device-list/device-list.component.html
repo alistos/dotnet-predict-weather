@@ -14,14 +14,18 @@
           <th>Manufacturer</th>
           <th>Url</th>
           <th>Commands</th>
+          <th> </th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let device of devices">
           <td>{{device.id}}</td>
-          <td>{{device.manufacture}}</td>
+          <td>{{device.manufacturer}}</td>
           <td>{{device.url}}</td>
           <td>{{device.commands}}</td>
+          <td>
+            <a class="btn btn-primary" [routerLink]="['/usermenu/device', device.id]">Edit</a>
+          </td>
         </tr>
       </tbody>
     </table>

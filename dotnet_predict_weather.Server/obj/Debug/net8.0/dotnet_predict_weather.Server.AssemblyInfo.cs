@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet_predict_weather.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b09dc7c078b5553ed85fad25d8bf28af832aa41")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet_predict_weather.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet_predict_weather.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

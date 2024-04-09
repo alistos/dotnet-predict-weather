@@ -1,1 +1,2 @@
 C:\Users\mugiw\Documents\gitreps\dotnet_predict_weather\dotnet_predict_weather.client\obj\Debug\dotnet_predict_weather.client.esproj.CoreCompileInputs.cache
+C:\Users\mugiw\Documents\gitreps\dotnet-predict-weather\dotnet_predict_weather.client\obj\Debug\dotnet_predict_weather.client.esproj.CoreCompileInputs.cache

@@ -6,5 +6,8 @@ namespace dotnet_predict_weather.Server.Repositories.Interface
     {
         Task<Device> CreateAsync(Device device);
         Task<IEnumerable<Device>> GetAllAsync();
+        Task<Device?> GetById(Guid id);
+        Task<Device?> EditAsync(Device device);
+        Task<Device?> DeleteAsync(Guid id);
     }
 }

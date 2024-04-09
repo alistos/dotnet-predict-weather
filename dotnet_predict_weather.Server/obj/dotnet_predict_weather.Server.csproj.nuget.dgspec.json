@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj": {}
+    "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj": {
+    "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj",
+        "projectUniqueName": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj",
         "projectName": "dotnet_predict_weather.Server",
-        "projectPath": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj",
+        "projectPath": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.Server\\dotnet_predict_weather.Server.csproj",
         "packagesPath": "C:\\Users\\mugiw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\obj\\",
+        "outputPath": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mugiw\\AppData\\Roaming\\NuGet\\NuGet.Config",

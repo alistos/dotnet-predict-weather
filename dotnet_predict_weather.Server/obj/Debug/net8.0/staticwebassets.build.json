@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "CE0Xlp6UyrWOsoTrK1sRopwJplUFv+m8mDIE31PSMU0=",
+  "Hash": "wO49x7BI28TQLLFhHNkjckX7EKk3P22mpzxjxNswM4U=",
   "Source": "dotnet_predict_weather.Server",
   "BasePath": "_content/dotnet_predict_weather.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.client\\dotnet_predict_weather.client.esproj",
+      "Identity": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet-predict-weather\\dotnet_predict_weather.client\\dotnet_predict_weather.client.esproj",
       "Version": 2,
       "Source": "dotnet_predict_weather.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

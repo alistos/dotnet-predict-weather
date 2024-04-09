@@ -8,13 +8,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { DeviceListComponent } from './features/device/device-list/device-list.component';
 import { AddDeviceComponent } from './features/device/add-device/add-device.component';
 import { FormsModule } from '@angular/forms';
+import { EditDeviceComponent } from './features/device/edit-device/edit-device.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DeviceListComponent,
-    AddDeviceComponent
+    AddDeviceComponent,
+    EditDeviceComponent
   ],
   imports: [
     BrowserModule,
