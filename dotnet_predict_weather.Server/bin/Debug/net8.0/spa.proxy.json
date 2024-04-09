@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\mugiw\\Documents\\gitreps\\dotnet_predict_weather\\dotnet_predict_weather.Server\\..\\dotnet_predict_weather.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

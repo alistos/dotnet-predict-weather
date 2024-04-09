@@ -1,0 +1,29 @@
+<div class="container">
+
+  <h1 class="mt-3">Device List</h1>
+
+  <div class="d-flex justify-content-end mt-3">
+    <a [routerLink]="['/usermenu/device/add']" class="btn btn-primary">Add Device</a>
+  </div>
+
+  <ng-container *ngIf="devices$ | async as devices">
+    <table class="table table-bordered mt-3">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Manufacturer</th>
+          <th>Url</th>
+          <th>Commands</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let device of devices">
+          <td>{{device.id}}</td>
+          <td>{{device.manufacture}}</td>
+          <td>{{device.url}}</td>
+          <td>{{device.commands}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </ng-container>
+</div>
